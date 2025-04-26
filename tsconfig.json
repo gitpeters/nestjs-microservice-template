@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/order-microservice"
+    },
+    {
+      "path": "./apps/api-gateway-e2e"
+    },
+    {
+      "path": "./apps/api-gateway"
+    },
+    {
+      "path": "./apps/payment-microservice-e2e"
+    },
+    {
+      "path": "./apps/payment-microservice"
+    },
+    {
+      "path": "./apps/notification-microservice-e2e"
+    },
+    {
+      "path": "./apps/notification-microservice"
+    }
+  ]
+}
